@@ -15,6 +15,7 @@ lto = "fat"
 codegen-units = 1
 panic = "abort"
 strip = true
+debug = false
 
 [profile.release.package.std]
 opt-level = "z"
